@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vintage Hustle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <!-- Navigation  -->
+  <header>
+    <div style=text-align:center class="CS">
+      <a href="customerservice.html">
+        <p>Customer</p>
+        <p>Service</p>
+      </a>
+    </div>
+    <div style=text-align:center class="About">
+      <a href="about.html">
+        <p>About Us</p>
+      </a>
+    </div>
+    <div class="row">
+      <div class="column" style="background-color:transparent;">
+        <a href="cart.html"><img src="icons/shopping cart.png" width="30" height="30">Shopping Cart</a>
+      </div>
+      <div class="column" style="background-color:transparent;">
+        <a href="favorite.html"><img src="icons/favorite.png" width="30" height="30">Favorites</a>
+      </div>
+      <div class="column" style="background-color:transparent;">
+        <a href="login.html"><img src="icons/login.png" width="30" height="30">Login</a>
+      </div>
+    </div>
+    <div style=text-align:center class="container">
+      <a href="index.html"><img src="images/VH Logo.png" width="200" height="100" class="logo"></a>
+    </div>
+    <div style=text-align:right class="nav">
+      <nav>
+        <ul>
+          <span class="material-symbols-outlined" onclick="openNav()">density_medium</span>
+          <li><a href="#">Trending</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="#" style="color:red" ;>Deals</a></li>
+          <li>
+            <div class="search">
+              <form action=''>
+                <input type="text" placeholder="Search" name="search">
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <p style="text-indent: 20px;" class="sidehead">Shop by Product</p>
+      <a href="#">View All</a>
+      <a href="#">Clothes</a>
+      <a href="#">Shoes & Accessories</a>
+      <p style="text-indent: 20px;" class="sidehead">Shop by Category</p>
+      <a href="women.html">Womens</a>
+      <a href="#">Mens</a>
+      <a href="#">Kids</a>
+      <a href="#">Unisex</a>
+
+    </div>
+
+    <script>
+      /* Set the width of the side navigation to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </header>
+
+  <!-- FAQ -->
+
+  <style>
+    .info input[type=text],
+    select,
+    textarea {
+      width: 90%;
+      height: 30px;
+      padding: 12px;
+      border: 0;
+      background-color: white;
+      border-radius: 2px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-left: 20px;
+      font-family: 'Avenir';
+      font-size: 14px;
+      margin-bottom: 16px;
+      resize: vertical;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .info button {
+      background-color: #c2c5bcff;
+      color: white;
+      font-family: 'Avenir';
+      padding: 5.5px 20px;
+      border: 0;
+      border-radius: 2px;
+      cursor: pointer;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .info button:hover {
+      opacity: 0.5;
+    }
+
+    .top {
+      font-size: 32px;
+      text-transform: uppercase;
+      font-family: 'Avenir';
+    }
+
+    .FAQ_column {
+      float: left;
+      width: 30%;
+      padding: 10px;
+      font-family: 'Avenir';
+      margin-left: 20px;
+    }
+
+    .FAQ_row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .FAQ_column ul {
+      list-style: disc;
+      text-indent: 2px;
+    }
+  </style>
+
+  <div class=title>
+    <p style="text-align: center;"><a href="index.html">Vintage Hustle </a>|<a href="customerservice.html"> Customer
+        Service </a>|<a href="FAQs.html"> FAQs</a>
+    </p>
+  </div>
+  <div class="search">
+    <form action='' class="info">
+      <input type="text" placeholder="What can we help you with?" name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div style="text-align: center;" class="top">Frequently Asked Questions</div>
+
+  <div class="FAQ_row">
+    <div class="FAQ_column" style="background-color:transparent;">
+      <h2>Shipping</h2>
+      <ul style="text-decoration: underline;">
+        <li>What shipping methods do you offer?</li>
+        <li>Where do you ship?</li>
+        <li>See more</li>
+      </ul>
+      <p>
+      <h2>Donations</h2>
+      </p>
+      <ul style="text-decoration: underline;">
+        <li>Where can I find a donation center?</li>
+        <li>How do I donate online</li>
+        <li>See more</li>
+      </ul>
+    </div>
+    <div class="FAQ_column" style="background-color:transparent;">
+      <h2>Order Issues</h2>
+      <ul style="text-decoration: underline;">
+        <li>Can I cancel or edit my order</li>
+        <li>What happens if my package is lost or stolen?</li>
+        <li>See more</li>
+      </ul>
+      <p>
+      <h2>Sizing & Fit</h2>
+      </p>
+      <ul style="text-decoration: underline;">
+        <li>How do I find my size?</li>
+        <li>Common fit issues & solutions.</li>
+        <li>See more</li>
+      </ul>
+    </div>
+    <div class="FAQ_column" style="background-color:transparent;">
+      <h2>Returns & Exchanges</h2>
+      <ul style="text-decoration: underline;">
+        <li>What is the return policy for international orders?</li>
+        <li>What are the return and exchange policies?</li>
+        <li>See more</li>
+      </ul>
+      <p>
+      <h2>Products FAQs</h2>
+      </p>
+      <ul style="text-decoration: underline;">
+        <li>What fabrics and materials are used in the product?</li>
+        <li>How does the gift card work?</li>
+        <li>See more</li>
+      </ul>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="contain">
+      <div class="foot-row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="customerservice.html">our services</a></li>
+            <li><a href="FAQ.html">privacy policy</a></li>
+            <li><a href="shop.html">our products</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="FAQ.html">shipping</a></li>
+            <li><a href="FAQ.html">returns</a></li>
+            <li><a href="FAQ.html">order status</a></li>
+            <li><a href="FAQ.html">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">womens</a></li>
+            <li><a href="#">men</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">unisex</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><img src="icons/facebook.png" width="20px" height="20px"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><img src="icons/twt.png" width="20px" height="20px"><i class="fab fa-twitter"></i></a>
+            <a href="#"><img src="icons/instagram.png" width="20px" height="20px"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>

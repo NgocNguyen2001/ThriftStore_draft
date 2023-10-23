@@ -1,0 +1,144 @@
+.order-title {
+  font-size: 14px;
+  text-align: center;
+  margin: 12px;
+}
+
+.order-container {
+  display: flex;
+  padding: 24px !important;
+  background-color: #ffffff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  gap: 12px;
+}
+
+.order-left-container {
+  width: 40%;
+  height: 385px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #eeeeee;
+}
+
+.order-right-container {
+  width: 60%;
+  padding: 24px;
+  border: 2px solid #eeeeee;
+}
+
+.order-left-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cart-bag {
+  cursor: pointer;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 345px;
+  border: 1px solid #000000;
+  background-color: rgb(244, 204, 204);
+}
+
+.cart-button-fav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.cart-button-fav>span {
+  font-size: 20px;
+}
+
+.cart-bag p {
+  font-family: "Avenir";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.cart-bag img {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-favorite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 6px 12px;
+  width: 345px;
+  border: 1px solid #000000;
+  background-color: transparent;
+}
+
+.cart-favorite p {
+  font-family: "Avenir";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.cart-favorite img {
+  width: 30px;
+  height: 30px;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  font-size: 20px;
+}
+
+.price>p:first-child {
+  text-decoration: line-through;
+}
+
+.price>p:last-child {
+  color: red;
+}
+
+.original-price {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.detail-button {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  padding: 24px;
+}
+
+.order-product-title {
+  font-size: 24px;
+}
+
+.order-size {
+  font-size: 20px;
+}
+
+.accordion {
+  margin-top: 24px;
+}
+
+.btn {
+  color: #000000 !important;
+  text-transform: uppercase;
+  font-size: 18px !important;
+}
+
+.accordion {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
