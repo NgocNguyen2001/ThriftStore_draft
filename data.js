@@ -70,7 +70,7 @@ const productList = [
     original_price: 14.99,
     sale_price: 9.99,
     description: "Stylish sunglasses for women with UV protection.",
-    image: "images/shop/unisex.jpg",
+    image: "images/shop/sunglass.png",
   },
 ];
 
